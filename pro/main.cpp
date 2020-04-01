@@ -36,8 +36,8 @@ int main()
       }
       
   for (i = 0; i < sample; i++){
-    Aout = Ain;
-    ADCdata[i] = Ain;
+    Aout = PWM1;
+    ADCdata[i] = PWM1;
     wait(1./sample);
   }
   for (i = 0; i < sample; i++){
